@@ -23,15 +23,17 @@ const ContactPage = ({ data }, location) => {
             <div className="row gtr-uniform">
             <input type="hidden" name="Kontaktskjema" value="Kontaktskjema" />
               <div className="col-6 col-12-xsmall">
-                <input
+                <label><input
                   type="text"
                   name="name"
                   id="demo-name"
                   placeholder="Navn"
                   required
                 />
+                </label>
               </div>
               <div className="col-6 col-12-xsmall">
+              <label>
                 <input
                   type="email"
                   name="email"
@@ -39,18 +41,22 @@ const ContactPage = ({ data }, location) => {
                   placeholder="E-post"
                   required
                 />
+              </label>
               </div>
               {/* Break */}
               <div className="col-12">
+              <label>
                 <select name="demo-category" id="demo-category">
                   <option value>- Type henvendelse -</option>
                   <option value={1}>Visuell identitet</option>
                   <option value={1}>Nettside</option>
                   <option value={1}>Annet</option>
                 </select>
+              </label>
               </div>
               {/* Break */}
               <div className="col-12">
+              <label>
                 <textarea
                   name="message"
                   id="demo-message"
@@ -58,6 +64,7 @@ const ContactPage = ({ data }, location) => {
                   rows={6}
                   defaultValue={""}
                 />
+              </label>
               </div>
               {/* Break */}
               <div className="col-12">
@@ -65,12 +72,12 @@ const ContactPage = ({ data }, location) => {
                   <li>
                     <input
                       type="submit"
-                      defaultValue="Send Message"
+                      defaultValue="Send inn"
                       className="primary"
                     />
                   </li>
                   <li>
-                    <input type="reset" defaultValue="Reset" />
+                    <input type="reset" defaultValue="Tilbakestill" />
                   </li>
                 </ul>
               </div>
