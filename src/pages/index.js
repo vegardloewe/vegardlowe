@@ -17,8 +17,9 @@ const BlogIndex = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="Portefølje"
+        title="Løwe Design - Innovative løsninger"
         keywords={[`grafisk design`, `løwe`, `design`, `logodesign`]}
+        description="Moderne og innovative løsninger på digitale utfordringer"
       />
       {/* <Bio /> */}
       {data.site.siteMetadata.description && (
