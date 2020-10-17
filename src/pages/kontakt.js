@@ -19,21 +19,19 @@ const ContactPage = ({ data }, location) => {
         <div className="post-content-body">
           <h2 id="forms">Kontakt meg</h2>
 
-          <form method="POST" name="Kontaktskjema" action="#" data-netlify='true'>
+          <form method="POST" name="Kontaktskjema" action="/kontakt/takk" data-netlify='true'>
             <div className="row gtr-uniform">
             <input type="hidden" name="form-name" value="Kontaktskjema" />
               <div className="col-6 col-12-xsmall">
-                <label><input
+                <input
                   type="text"
                   name="name"
                   id="demo-name"
                   placeholder="Navn"
                   required
                 />
-                </label>
               </div>
               <div className="col-6 col-12-xsmall">
-              <label>
                 <input
                   type="email"
                   name="email"
@@ -41,22 +39,18 @@ const ContactPage = ({ data }, location) => {
                   placeholder="E-post"
                   required
                 />
-              </label>
               </div>
               {/* Break */}
               <div className="col-12">
-              <label>
                 <select name="demo-category" id="demo-category">
                   <option value>- Type henvendelse -</option>
                   <option value={1}>Visuell identitet</option>
                   <option value={1}>Nettside</option>
                   <option value={1}>Annet</option>
                 </select>
-              </label>
               </div>
               {/* Break */}
               <div className="col-12">
-              <label>
                 <textarea
                   name="message"
                   id="demo-message"
@@ -64,7 +58,6 @@ const ContactPage = ({ data }, location) => {
                   rows={6}
                   defaultValue={""}
                 />
-              </label>
               </div>
               {/* Break */}
               <div className="col-12">
