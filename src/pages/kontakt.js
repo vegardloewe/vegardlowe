@@ -21,6 +21,7 @@ const ContactPage = ({ data }, location) => {
 
           <form name="Kontaktskjema" method="post" action="#" data-netlify='true' data-netlify-honeypot='_gotcha'>
             <div className="row gtr-uniform">
+            <input type="hidden" name="Kontaktskjema" value="Kontaktskjema" />
               <div className="col-6 col-12-xsmall">
                 <input
                   type="text"
