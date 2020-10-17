@@ -19,9 +19,9 @@ const ContactPage = ({ data }, location) => {
         <div className="post-content-body">
           <h2 id="forms">Kontakt meg</h2>
 
-          <form name="Kontaktskjema" method="post" action="#" data-netlify='true' data-netlify-honeypot='_gotcha'>
+          <form method="POST" name="Kontaktskjema" action="#" data-netlify='true'>
             <div className="row gtr-uniform">
-            <input type="hidden" name="Kontaktskjema" value="Kontaktskjema" />
+            <input type="hidden" name="form-name" value="Kontaktskjema" />
               <div className="col-6 col-12-xsmall">
                 <label><input
                   type="text"
