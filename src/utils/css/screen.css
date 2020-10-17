@@ -103,7 +103,7 @@ body {
 }
 @media (max-width: 500px) {
     .page-head-title {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
@@ -500,6 +500,9 @@ body {
 @media (max-width: 700px) {
     .post-card.no-image:before {
         font-size: 50vw;
+    }
+    .post-card-title {
+        display: none;
     }
 }
 
