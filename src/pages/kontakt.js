@@ -18,22 +18,24 @@ const ContactPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="forms">Kontakt meg</h2>
-          <form method="post" action="#">
+          <form method="post" action="#" data-netlify='' data-netlify-honeypot='_gotcha'>
             <div className="row gtr-uniform">
               <div className="col-6 col-12-xsmall">
                 <input
                   type="text"
-                  name="demo-name"
+                  name="name"
                   id="demo-name"
                   placeholder="Navn"
+                  required
                 />
               </div>
               <div className="col-6 col-12-xsmall">
                 <input
                   type="email"
-                  name="demo-email"
+                  name="email"
                   id="demo-email"
                   placeholder="E-post"
+                  required
                 />
               </div>
               {/* Break */}
@@ -48,7 +50,7 @@ const ContactPage = ({ data }, location) => {
               {/* Break */}
               <div className="col-12">
                 <textarea
-                  name="demo-message"
+                  name="message"
                   id="demo-message"
                   placeholder="Beskrivelse"
                   rows={6}
