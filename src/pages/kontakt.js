@@ -19,17 +19,9 @@ const ContactPage = ({ data }, location) => {
         <div className="post-content-body">
           <h2 id="forms">Kontakt meg</h2>
 
-          <form name="interest" method="POST" data-netlify="true" action="thank-you">
-              <input type="hidden" name="interest" value="interest" />
-                <p>
-                  <label><input type="email" name="email" placeholder="Your email" class="input" /></label><button type="submit" class="send">I'm interested</button>
-                </p>
-          </form>
-
-          <form name="Kontaktskjema" method="post" action="#" data-netlify='' data-netlify-honeypot='_gotcha'>
+          <form name="Kontaktskjema" method="post" action="#" data-netlify='true' data-netlify-honeypot='_gotcha'>
             <div className="row gtr-uniform">
               <div className="col-6 col-12-xsmall">
-              <label>
                 <input
                   type="text"
                   name="name"
@@ -37,10 +29,8 @@ const ContactPage = ({ data }, location) => {
                   placeholder="Navn"
                   required
                 />
-              </label>
               </div>
               <div className="col-6 col-12-xsmall">
-              <label>
                 <input
                   type="email"
                   name="email"
@@ -48,22 +38,18 @@ const ContactPage = ({ data }, location) => {
                   placeholder="E-post"
                   required
                 />
-              </label>
               </div>
               {/* Break */}
               <div className="col-12">
-              <label>
                 <select name="demo-category" id="demo-category">
                   <option value>- Type henvendelse -</option>
                   <option value={1}>Visuell identitet</option>
                   <option value={1}>Nettside</option>
                   <option value={1}>Annet</option>
                 </select>
-              </label>
               </div>
               {/* Break */}
               <div className="col-12">
-              <label>
                 <textarea
                   name="message"
                   id="demo-message"
@@ -71,13 +57,12 @@ const ContactPage = ({ data }, location) => {
                   rows={6}
                   defaultValue={""}
                 />
-              </label>
               </div>
               {/* Break */}
               <div className="col-12">
                 <ul className="actions">
                   <li>
-                    <button
+                    <input
                       type="submit"
                       defaultValue="Send Message"
                       className="primary"
