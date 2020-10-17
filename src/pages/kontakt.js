@@ -70,11 +70,9 @@ const ContactPage = ({ data }, location) => {
               <div className="col-12">
                 <ul className="actions">
                   <li>
-                    <input
-                      type="submit"
-                      defaultValue="Send inn"
-                      className="primary"
-                    />
+                    <button type="submit" className="primary">
+                    Send inn
+                    </button>
                   </li>
                   <li>
                     <input type="reset" defaultValue="Tilbakestill" />
