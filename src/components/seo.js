@@ -67,6 +67,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: 'og:image',
+          content: 'https://i.ibb.co/Kr0QrX0/Working.jpg'
+        }
       ]
         .concat(
           keywords.length > 0
