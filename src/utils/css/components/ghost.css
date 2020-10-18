@@ -54,6 +54,7 @@
 @media (max-width: 800px) {
     .kg-width-full {
         width: 100vw;
+        max-width: 100%;
     }
     .kg-width-full figcaption {
         padding-left: 6vw;
