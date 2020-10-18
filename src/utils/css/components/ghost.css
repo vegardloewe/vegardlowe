@@ -45,7 +45,7 @@
     transform: translateX(calc(50vw - 50%));
 }
 
-img[src*="#maxwidth"] {
+img[alt=Ntention-animated-logo] {
     max-width: 100%;
 }
 
