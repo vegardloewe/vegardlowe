@@ -21,7 +21,7 @@ Ntention er et norsk teknologiselskap med utspring fra NTNU i Trondheim. Selskap
 
 <div class="kg-card kg-image-card kg-width-full">
 
-![Ntention](./logo.gif)
+![Ntention](./logo.gif#maxwidth)
 
 </div>
 
