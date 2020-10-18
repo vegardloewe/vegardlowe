@@ -43,9 +43,9 @@ const ContactPage = ({ data }, location) => {
               <div className="col-12">
                 <select name="type-henvendelse" id="demo-category">
                   <option value>- Type henvendelse -</option>
-                  <option value={Visuell Identitet}>Visuell identitet</option>
-                  <option value={Nettside}>Nettside</option>
-                  <option value={Annet}>Annet</option>
+                  <option value={1}>Visuell identitet</option>
+                  <option value={2}>Nettside</option>
+                  <option value={3}>Annet</option>
                 </select>
               </div>
               {/* Break */}
