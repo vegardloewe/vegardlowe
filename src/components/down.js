@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import Lottie from "lottie-web";
-import animationData from "./animations/down.json";
 import './down.css'
 
 
@@ -13,7 +12,7 @@ class Down extends Component {
     const defaultOptions = {
       loop: true,
       autoplay: true,
-      animationData: animationData,
+      animationData: require('./animations/down.json'),
       rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice'
       }
