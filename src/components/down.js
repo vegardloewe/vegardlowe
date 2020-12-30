@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Lottie from "lottie-web";
+import Lottie from "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js";
 import './down.css'
 
 
