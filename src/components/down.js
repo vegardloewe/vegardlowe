@@ -1,41 +1,28 @@
 import React, { useEffect, createRef } from "react";
 
-import lottie from "lottie-web";
+import Lottie from "lottie-web";
 import animation from "./animations/down.json";
 import './down.css'
-
-const defaultOptions = {
-      animation
-}
-
-
 
 
 const Down = () => {
   let animationContainer = createRef();
 
-  lottie.loadAnimation({
-        container: animationContainer.current,
-        animationData: animation, // animation file!
-        renderer: "svg",
-        loop: true,
-        autoplay: true
-      });
-
-  useEffect(() => {
-    const anim = lottie.loadAnimation({
-      container: animationContainer.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: animation
-    });
-    return () => anim.destroy(); // optional clean up for unmounting
-  }, []);
+      const defaultOptions = {
+            loop: true,
+            autoplay: true,
+            animationData: animation,
+            rendererSettings: {
+              preserveAspectRatio: 'xMidYMid slice'
+            }
+          };
 
   return (
     <div className="App">
-        <div className="animation-container" options={defaultOptions} ref={animationContainer} />
+    <Lottie options={defaultOptions}
+          height={400}
+          width={400}
+    />
     </div>
   );
 };
