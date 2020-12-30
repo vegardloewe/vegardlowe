@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
-import Lottie from "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js";
+import Lottie from "./animations/lottie.js";
 import './down.css'
+
 
 
 class Down extends Component {
