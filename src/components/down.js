@@ -1,7 +1,7 @@
 import React, { useEffect, createRef } from "react";
 
 import lottie from "lottie-web";
-import animation from "https://drive.google.com/file/d/1ewDPQ-w_PTm5yvMHKyDFCU4hK-ryb1aO/view?usp=sharing";
+import animation from "https://assets7.lottiefiles.com/packages/lf20_jfchliut.json";
 import './down.css'
 
 
