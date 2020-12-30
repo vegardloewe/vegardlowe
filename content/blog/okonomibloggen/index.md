@@ -1,17 +1,18 @@
 ---
-title: Visuell identitet - Økonomibloggen
+title: Brand Identity for Finance Blog
+client: Økonomibloggen
 date: "2019-01-03"
-thumbnail: ./hero.jpg
-description: Komplett visuell identitet for en norsk økonomiblogg.
+thumbnail: ./hero.png
+description: Complete brand identity for a Norwegian award-winning finance blog.
 ---
 
-### Prosjektbeskrivelse
+### Project Description
 
-Oppgaven for dette prosjektet var å utforme en komplett visuell merkevareidentitet for en norsk nettbasert økonomiblogg. Identiteten består av logodesign, fargepalett, typografi og designelementer for bruk i sosiale medier. I tillegg ble det designet og utviklet et nettsted som er et samlested for alle artikler fra Økonomibloggen. Det var særlig viktig å få frem økonomiske begrep på en visuell måte slik at artiklene oppleves lettleste og engasjerende.
+The task for this project was to design a complete brand identity for a Norwegian online finance blog. The identity consists of logo design, color palette, typography and design elements for use in social media. In addition, a website was designed and developed to construct a gathering place for all articles from Økonomibloggen. It was especially important to bring out financial concepts in a visual way so that the articles are easy to read and engaging.
 
-#### Om Økonomibloggen
+#### About Økonomibloggen
 
-Økonomibloggen er et nyoppstartet nettsted innen økonomi. Nettstedet har som mål å hjelpe deg forstå komplekse finansielle konsepter, forbedre investerings-ferdigheter, og å lære deg å håndtere penger i det hverdagslige livet. Artiklene som blir publisert på bloggen er innenfor feltene personlig økonomi, finans og innovasjon.
+Økonomibloggen is an award-winning website within finance. The site aims to help you understand complex financial concepts, improve investment skills, and to teach you how to manage money in everyday life. The articles that are published on the blog are in the fields of personal finance, finance and innovation.
 
 <div class="kg-card kg-image-card kg-width-full">
 
@@ -26,9 +27,9 @@ Oppgaven for dette prosjektet var å utforme en komplett visuell merkevareidenti
 </div>
 
 
-#### Logodesign
+#### Logo Design
 
-Det ble utformet en merkevareidentitet med logo som uttrykker formidling, kompetanse og økonomi. Logodesignet kombinerer derfor elementene hånd, hjerne og mynter for å uttrykke dette budskapet.
+A brand identity was designed with a logo that expresses communication, competence and finances. The logo design therefore combines the elements hand, brain and coins to express this message.
 
 
 ![Økonomibloggen](./logodesign.jpg)

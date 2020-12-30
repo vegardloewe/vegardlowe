@@ -1,17 +1,18 @@
 ---
-title: Visuell identitet - CEC19
+title: Brand Identity for Conference
+client: China Entry Challenge
 date: "2020-02-06"
 thumbnail: ./Header-CEC.png
-description: Komplett visuell identitet for en norsk gründerkonferanse i Trondheim.
+description: Complete visual identity for a Norwegian entrepreneurship conference in Trondheim, Norway.
 ---
 
-### Prosjektbeskrivelse
+### Project Description
 
-Oppgaven for dette prosjektet var å utforme en komplett visuell merkevareidentitet for en norsk gründerkonferanse. Idéen var å lage en konferanseidentitet som var fundamentert i koblingen mellom Norge og Kina, samtidig som identiteten fokuserer på oppstartsbedrifter. Under China Entry Challenge skal Norges ypperste oppstartsbedrifter konkurrere om å vinne ettertraktede premier.
+The task for this project was to design a complete visual brand identity for a Norwegian entrepreneurship conference. The idea was to create a conference identity that was based on the connection between Norway and China, at the same time as the identity focuses on start-ups. During the China Entry Challenge, Norway's top start-up companies will compete to win coveted prizes.
 
-#### Om China Entry Challenge
+#### About China Entry Challenge
 
-Det kinesiske markedet ekspanderer og oppstartsbedrifters forbindelse til markedet blir stadig mer og mer verdifullt. Kina vil overta overta plassen til USA som verdens største detaljhandelmarked i 2019, i følge en ny markedsrapport utgitt av undersøkelsesbyrået eMarketer. China Entry Challenge introduserer voksende oppstartsbedrifter til det kinesiske markedet og oppfordrer de til å ta det neste store skrittet ved å gi deltakerne invitasjon til det beryktede start-up programmet China Start i regi av CKGSB.
+The Chinese market is expanding and start-up companies' connection to the market is becoming more and more valuable. China will take over the place of the United States as the world's largest retail market in 2019, according to a new market report published by the research agency eMarketer. China Entry Challenge introduces growing start-ups to the Chinese market and encourages them to take the next big step by inviting participants to the infamous start-up program China Start under the auspices of CKGSB.
 
 <div class="kg-card kg-image-card kg-width-full">
 
@@ -19,9 +20,9 @@ Det kinesiske markedet ekspanderer og oppstartsbedrifters forbindelse til marked
 
 </div>
 
-#### Pitchekonkurranse
+#### Pitch Competition
 
-Over 20 kvalifiserte oppstartsbedrifter som konkurrerer for en inngang til det kinesiske markedet gjennom en spennende kveld som inkluderer en pitchekonkurranse. oppstartsbedriftene presenterer sin idé og forretningsmodell på en scene foran innflytelsesrike investorer og publikum. Et anerkjent dommerpanel av sponsorer og partnere vil evaluere presentasjonene og rangere oppstartsbedriftene. De beste kandidatene vinner sponsormidler til CKGSBs gründerprogram China Start. Et oppslukende program for oppstartsbedrifter og vekstbedrifter for å lære mer om det kinesiske markedet og knytte forbindelser med kinesiske investorer.
+Over 20 qualified start-ups competing for an entry into the Chinese market through an exciting evening that includes a pitch competition. Start-up companies present their idea and business model on a stage in front of influential investors and the public. A reputable judging panel of sponsors and partners will evaluate the presentations and rank the start-ups. The best candidates win sponsorship funds for CKGSB's entrepreneurial program China Start. An immersive program for start-ups and growth companies to learn more about the Chinese market and connect with Chinese investors.
 
 <div class="kg-card kg-image-card kg-width-full">
 

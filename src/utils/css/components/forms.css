@@ -27,11 +27,11 @@ input[type="search"],
 input[type="url"],
 select,
 textarea {
-    background: var(--color-bg);
-    border-radius: var(--radius);
+    background: black;
+    border-radius: 0;
     border: none;
-    border: solid 1px var(--color-border);
-    color: inherit;
+    border-bottom: solid 1px var(--color-border);
+    color: white;
     display: block;
     outline: 0;
     padding: 0 0.6em;
@@ -50,17 +50,7 @@ textarea:invalid {
     box-shadow: none;
 }
 
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-input[type="tel"]:focus,
-input[type="search"]:focus,
-input[type="url"]:focus,
-select:focus,
-textarea:focus {
-    border-color: var(--color-primary);
-    box-shadow: 0 0 0 1px var(--color-primary);
-}
+
 
 select {
     height: var(--height);

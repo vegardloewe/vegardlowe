@@ -1,17 +1,18 @@
 ---
-title: Roll-ups - Arveng Technologies
+title: Promotional Materials for Start-up
+client: Arveng Technologies
 date: "2018-12-03"
 thumbnail: ./Rollup1Final.jpg
-description: Design av markedsføringsmateriell.
+description: Design of promotional items for a Norwegian technology startup.
 ---
 
-### Prosjektbeskrivelse
+### Project Description
 
-Dette prosjektet gikk ut på å designe reklameartikler og roll-up for teknologiselskapet Arveng Technologies. Reklameartiklene vil bli brukt på konferanser og internasjonale teknologisamlinger.
+This project involved designing promotional items and roll-up for the technology company Arveng Technologies. The promotional items will be used at conferences and international technology gatherings.
 
-#### Om Arveng Technologies
+#### About Arveng Technologies
 
-Arveng Technologies lager en hanske med sensorer på hver finger for å kartlegge bevegelsen av hånden. Dataen blir brukt til å konstruere en 3D-modell av hånden, som vil gjenkjenne ulike håndgester og utgjøre fundamentet som kan brukes til å kontrollere maskiner. På denne måten vil kapasiteten som kreves av brukeren minimeres.
+Arveng Technologies makes a glove with sensors on each finger to map the movement of the hand. The data is used to construct a 3D model of the hand, which will recognize different hand gestures and form the foundation that can be used to control machines. In this way, the cognitive capacity required by the user will be minimized.
 
 <div class="kg-card kg-image-card kg-width-full">
 

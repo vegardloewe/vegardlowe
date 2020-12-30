@@ -1,17 +1,18 @@
 ---
-title: Visuell identitet - Oakpi
+title: Brand Identity for E-commerce Store
+client: Oakpi
 date: "2020-01-17"
 thumbnail: ./hero.png
-description: Komplett visuell identitet for nettbutikk for klokketilbehør.
+description: Complete brand identity for an e-commerce store selling watch accessories.
 ---
 
-### Prosjektbeskrivelse
+### Project Description
 
-Oppgaven for dette prosjektet var å utforme en komplett visuell merkevareidentitet for en internasjonal nettbutikk som spesialiserer seg på tilbehør for Apple Watch. Viktige kjernekarakteristikker for merkevaren er kvalitet, åpenhet og harmoni.
+The task of this project was to design a complete brand identity for an international online store specializing in accessories for the Apple Watch. Important core characteristics of the brand are quality, openness and harmony.
 
-#### Om Oakpi
+#### About Oakpi
 
-Oakpi er en nettbutikk som sikter på å bli en utfordrer til Apple Watch-tilbehør markedet. Originalt Apple Watch-tilbehør er overpriset og kundene betaler store summer kun for merkevaren. Du kan enkelt produsere de samme produktene med eksakt det samme materialet til en signifikant lavere kostnad. Denne tankegangen er fundamentet i Oakpis visjon. Ved å tilby høykvalitetsprodukter til en rimelig pris spiller Oakpi på kundens lag.
+Oakpi is an online store that aims to become a challenger to the Apple Watch accessories market. Genuine Apple Watch accessories are overpriced and customers pay large sums only for the brand. You can easily produce the same products with exactly the same material at a significantly lower cost. This way of thinking is the foundation of Oakpi's vision. By offering high quality products at a reasonable price, Oakpi plays on the customer's team.
 
 <div class="kg-card kg-image-card kg-width-full">
 
@@ -19,9 +20,9 @@ Oakpi er en nettbutikk som sikter på å bli en utfordrer til Apple Watch-tilbeh
 
 </div>
 
-#### Logodesign
+#### Logo Design
 
-Det ble utformet en stilren logo som uttrykker eksklusiviteten til merkevaren.
+A stylish logo was designed that expresses the exclusivity of the brand.
 
 
 ![Oakpi](./Logo-circle.png)
@@ -44,9 +45,9 @@ Det ble utformet en stilren logo som uttrykker eksklusiviteten til merkevaren.
 
 </div>
 
-#### Nettside
+#### Website
 
-Identiteten ble videreført til utrykket i alle deler av nettsiden. Alt fra komponenter til animasjoner ivaretar kvaliteten i merkevaren.
+The identity was passed on to the expression in all parts of the website. Everything from components to animations safeguards the quality of the brand.
 
 <div class="kg-card kg-image-card kg-width-full">
 

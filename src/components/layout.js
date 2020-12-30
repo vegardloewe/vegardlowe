@@ -26,14 +26,14 @@ const Layout = props => {
           </a>
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
+                <li className="nav-start" role="menuitem">
+                  <Link to={`/contact`} className="nav-start">Start a Project</Link>
+                </li>
               <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Startside</Link>
+                <Link to={`/`}>Work</Link>
               </li>
               <li className="nav-about" role="menuitem">
-                <Link to={`/om`}>Om</Link>
-              </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/kontakt`}>Kontakt</Link>
+                <Link to={`/about`}>About</Link>
               </li>
             </ul>
           </nav>
@@ -44,6 +44,14 @@ const Layout = props => {
           </div>
           <div className="site-head-right">
             <div className="social-links">
+                <a
+                  href="https://www.behance.net/VegardLoewe"
+                  title="Behance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Behance
+                </a>
               <a
                 href="https://www.linkedin.com/in/vegard-lowe/"
                 title="LinkedIn"
@@ -53,12 +61,12 @@ const Layout = props => {
                 LinkedIn
               </a>
               <a
-                href="https://twitter.com/VegardLoewe"
-                title="Twitter"
+                href="https://dribbble.com/Vegardloewe"
+                title="Dribbble"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                Dribbble
               </a>
             </div>
           </div>

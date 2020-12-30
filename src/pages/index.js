@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostCard from "../components/postCard"
 
+import Down from '../components/down.js'
+
 // import "../utils/global.scss"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
@@ -25,8 +27,12 @@ const BlogIndex = ({ data }, location) => {
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
-            {data.site.siteMetadata.description}
+            Creative Designer & Developer
           </h2>
+          <div className="col-5">
+            <p>Hi I'm Vegard Løwe. A passionate Brand Designer and Front End Developer based in Norway.</p>
+            <Down/>
+          </div>
         </header>
       )}
       <div className="post-feed">
@@ -64,6 +70,7 @@ const indexQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            client
             description
             thumbnail {
               childImageSharp {
