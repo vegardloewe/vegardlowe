@@ -1,7 +1,7 @@
 import React, { useEffect, createRef } from "react";
 
 import lottie from "lottie-web";
-import animation from "/animations/down.json";
+import animation from "https://hopeful-joliot-7aaf5c.netlify.app/animations/down.json";
 import './down.css'
 
 
