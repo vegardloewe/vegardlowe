@@ -1,8 +1,14 @@
 import React, { useEffect, createRef } from "react";
 
 import lottie from "lottie-web";
-import animation from "https://assets7.lottiefiles.com/packages/lf20_jfchliut.json";
+import animation from "./animations/down.json";
 import './down.css'
+
+const defaultOptions = {
+      animation
+}
+
+
 
 
 const Down = () => {
@@ -29,7 +35,7 @@ const Down = () => {
 
   return (
     <div className="App">
-        <div className="animation-container" ref={animationContainer} />
+        <div className="animation-container" options={defaultOptions} ref={animationContainer} />
     </div>
   );
 };
