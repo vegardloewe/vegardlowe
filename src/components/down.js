@@ -1,7 +1,7 @@
 import React, { useEffect, createRef } from "react";
 
 import lottie from "lottie-web";
-import animation from "./Animations/down.json";
+import animation from "./animations/down.json";
 import './down.css'
 
 
