@@ -96,6 +96,12 @@ module.exports = {
         icon: `content/assets/favicon.png`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-load-script',
+      options: {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.5/lottie.min.js', // Change to the script filename
+      },
+    },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,

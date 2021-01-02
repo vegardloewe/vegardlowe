@@ -5,7 +5,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostCard from "../components/postCard"
 
-import Down from '../components/down.js'
+import Down from "../components/down"
+
+
+
 
 // import "../utils/global.scss"
 import "../utils/normalize.css"
@@ -32,7 +35,7 @@ const BlogIndex = ({ data }, location) => {
           <div className="col-5">
             <p>Hi I'm Vegard Løwe. A passionate Brand Designer and Front End Developer based in Norway.</p>
             <Down/>
-          </div>
+           </div>
         </header>
       )}
       <div className="post-feed">
