@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostCard from "../components/postCard"
 
-import Down from "../components/down"
+
 
 
 
@@ -34,11 +34,10 @@ const BlogIndex = ({ data }, location) => {
           </h2>
           <div className="col-5">
             <p>Hi I'm Vegard Løwe. A passionate Brand Designer and Front End Developer based in Norway.</p>
-            <Down/>
            </div>
         </header>
       )}
-      <div className="post-feed">
+      <div className="post-feed space-100t">
         {posts.map(({ node }) => {
           postCounter++
           return (
