@@ -1,12 +1,12 @@
-import React from "react"
+import React, { useEffect, createRef } from "react"
 import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostCard from "../components/postCard"
 
-
-
+import '../components/down.css'
+import animation from '../components/animations/down.json'
 
 
 
@@ -18,6 +18,28 @@ const BlogIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
   let postCounter = 0
+  const lottie = window.lottie
+
+  let animationContainer = createRef();
+
+  lottie.loadAnimation({
+      container: animationContainer.current, // current instance of our container!
+      animationData: animation, // animation file!
+      renderer: "svg",
+      loop: true,
+      autoplay: true
+    });
+
+    useEffect(() => {
+      const anim = lottie.loadAnimation({
+        container: animationContainer.current,
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        animationData: animation
+      });
+      return () => anim.destroy(); // optional clean up for unmounting
+    }, []);
 
   return (
     <Layout title={siteTitle}>
@@ -34,7 +56,10 @@ const BlogIndex = ({ data }, location) => {
           </h2>
           <div className="col-5">
             <p>Hi, I'm Vegard Løwe. A passionate Brand Designer and Front End Developer based in Norway.</p>
-           </div>
+          </div>
+          <div className="App">
+              <div className="animation-container" ref={animationContainer} />
+          </div>
         </header>
       )}
       <div className=" post-feed space-100t">
