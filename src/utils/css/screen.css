@@ -436,6 +436,7 @@ body {
         flex: 1 1 100%;
         height: 70vw;
         margin: 0;
+        margin-bottom: 3rem;
     }
 }
 
@@ -789,6 +790,10 @@ body {
 .column70 {
   float: left;
   width: 70%;
+}
+
+.space-100t {
+    padding-top: 100px;
 }
 
 @media (max-width: 850px) {

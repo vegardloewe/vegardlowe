@@ -37,7 +37,7 @@ const BlogIndex = ({ data }, location) => {
            </div>
         </header>
       )}
-      <div className="post-feed space-100t">
+      <div className=" post-feed space-100t">
         {posts.map(({ node }) => {
           postCounter++
           return (
