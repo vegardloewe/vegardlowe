@@ -23,7 +23,7 @@ const BlogIndex = ({ data }, location) => {
     <Layout title={siteTitle}>
       <SEO
         title="Vegard J. Løwe - Brand Designer & Front End Developer"
-        keywords={[`grafisk design`, `løwe`, `design`, `logodesign`]}
+        keywords={[`Vegard J. Løwe`, `løwe`, `design`, `logo design`, `web development`]}
         description="Vegard is a freelance designer and has worked on projects in UI/UX, web design, branding and identity and print design. He enjoys digital experimentation and learning about new tools and approaches to continue enhancing his design process."
       />
       {/* <Bio /> */}
@@ -33,7 +33,7 @@ const BlogIndex = ({ data }, location) => {
             Creative Designer & Developer
           </h2>
           <div className="col-5">
-            <p>Hi I'm Vegard Løwe. A passionate Brand Designer and Front End Developer based in Norway.</p>
+            <p>Hi, I'm Vegard Løwe. A passionate Brand Designer and Front End Developer based in Norway.</p>
            </div>
         </header>
       )}
