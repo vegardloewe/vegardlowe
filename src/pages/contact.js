@@ -12,7 +12,7 @@ const ContactPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle} className="dark">
-      <SEO title="Kontakt" keywords={[`kontakt`, `løwe`, `vegard løwe`, `design`]} />
+      <SEO title="Contact" keywords={[`contact`, `løwe`, `vegard løwe`, `design`, `vegard j. løwe`]} />
 
       <article className="post-content page-template no-image ">
         <div className="post-content-body">

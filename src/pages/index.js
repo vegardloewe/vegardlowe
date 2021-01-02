@@ -22,9 +22,9 @@ const BlogIndex = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="Løwe Design - Innovative løsninger"
+        title="Vegard J. Løwe - Brand Designer & Front End Developer"
         keywords={[`grafisk design`, `løwe`, `design`, `logodesign`]}
-        description="Moderne og innovative løsninger på digitale utfordringer"
+        description="Vegard is a freelance designer and has worked on projects in UI/UX, web design, branding and identity and print design. He enjoys digital experimentation and learning about new tools and approaches to continue enhancing his design process."
       />
       {/* <Bio /> */}
       {data.site.siteMetadata.description && (

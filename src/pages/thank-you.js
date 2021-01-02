@@ -12,7 +12,7 @@ const ThankyouPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="Kontakt" keywords={[`kontakt`, `løwe`, `vegard løwe`, `design`]} />
+      <SEO title="Contact" keywords={[`contact`, `løwe`, `vegard løwe`, `design`]} />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
