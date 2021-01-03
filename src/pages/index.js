@@ -1,45 +1,40 @@
-import React, { useEffect, createRef } from "react"
+import React, { useEffect, createRef, Component } from "react"
 import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostCard from "../components/postCard"
+import "../utils/normalize.css"
+import "../utils/css/screen.css"
 
 import '../components/down.css'
 import animation from '../components/animations/down.json'
 
 
 
+
 // import "../utils/global.scss"
-import "../utils/normalize.css"
-import "../utils/css/screen.css"
+
 //TODO: switch to staticQuery, get rid of comments, remove unnecessary components, export as draft template
-const BlogIndex = ({ data }, location) => {
+const BlogIndex = ({ data }, location ) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
   let postCounter = 0
-  const lottie = window.lottie
 
-  let animationContainer = createRef();
+  let animationContainer = createRef()
 
-  lottie.loadAnimation({
-      container: animationContainer.current, // current instance of our container!
-      animationData: animation, // animation file!
-      renderer: "svg",
-      loop: true,
-      autoplay: true
-    });
+  if (typeof window !== 'undefined') {
+      const lottie = window.lottie
 
-    useEffect(() => {
-      const anim = lottie.loadAnimation({
-        container: animationContainer.current,
-        renderer: "svg",
-        loop: true,
-        autoplay: true,
-        animationData: animation
+      lottie.loadAnimation({
+          container: animationContainer.current, // current instance of our container!
+          animationData: animation, // animation file!
+          renderer: "svg",
+          loop: true,
+          autoplay: true
       });
-      return () => anim.destroy(); // optional clean up for unmounting
-    }, []);
+    }
+
 
   return (
     <Layout title={siteTitle}>
@@ -58,7 +53,7 @@ const BlogIndex = ({ data }, location) => {
             <p>Hi, I'm Vegard Løwe. A passionate Brand Designer and Front End Developer based in Norway.</p>
           </div>
           <div className="App">
-              <div className="animation-container" ref={animationContainer} />
+               <div className="animation-container" ref={animationContainer} />
           </div>
         </header>
       )}

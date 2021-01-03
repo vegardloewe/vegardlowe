@@ -99,7 +99,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-load-script',
       options: {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.5/lottie.min.js', // Change to the script filename
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.5/lottie.js', // Change to the script filename
       },
     },
     `gatsby-plugin-netlify`,
