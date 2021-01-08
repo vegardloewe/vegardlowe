@@ -10,6 +10,9 @@ import "../utils/css/screen.css"
 import '../components/down.css'
 import animation from '../components/animations/down.json'
 
+import loadable from '@loadable/component'
+
+const Down = loadable(() => import('../components/down'))
 
 
 
@@ -21,19 +24,6 @@ const BlogIndex = ({ data }, location ) => {
   const posts = data.allMarkdownRemark.edges
   let postCounter = 0
 
-  let animationContainer = createRef()
-
-  if (typeof window !== 'undefined') {
-      const lottie = window.lottie
-
-      lottie.loadAnimation({
-          container: animationContainer.current, // current instance of our container!
-          animationData: animation, // animation file!
-          renderer: "svg",
-          loop: true,
-          autoplay: true
-      });
-    }
 
 
   return (
@@ -52,9 +42,7 @@ const BlogIndex = ({ data }, location ) => {
           <div className="col-5">
             <p>Hi, I'm Vegard Løwe. A passionate Brand Designer and Front End Developer based in Norway.</p>
           </div>
-          <div className="App">
-               <div className="animation-container" ref={animationContainer} />
-          </div>
+          <Down/>
         </header>
       )}
       <div className=" post-feed space-100t">
